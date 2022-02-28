@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<!-------My index style------->
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  footer {
+    list-style-type: none;
+    background-color: transparent;
+    padding: 0px;
+    margin-top: 20px;
+  }
+
+  iframe {
+    padding-top: 10px;
+  }
+
+  p {
+    Color: white;
+  }
+
+  /* Popup container - can be anything you want */
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* The actual popup */
+  /*-------hides popup -------*/
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: 600px;
+    margin-top: 600px;
+    vertical-align: text-bottom;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    background-color: black;
+
+
+  }
+
+  /**/
+
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .Myname {
+    background-image: linear-gradient(to left, rgb(240, 94, 240), indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+</style>
+
+<!---------Head--------->
+
+<head>
+
+  <title>BootcampAssignment2</title>
+  <link rel="icon" type="image/x-icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO0CpiE1kIKBve42VwCaIza2Ue6tGiJSsD6g&usqp=CAU">
+  <meta charset="UTF-8">
+  <meta name="description" content="Peterbrown">
+  <meta name="keywords" content="Bootcamp assignment 2,Peterbrown, Mywebsite">
+  <meta name="author" content="Peter kgobudi">
+
+
+
+</head>
+
+<!---------body---------->
+
+<body>
+
+  <!------Video Background------>
+  <video autoplay muted loop id="myVideo">
+    <source src="https://media.gettyimages.com/videos/binary-matrix-video-id479480989" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+
+  <!-----My text------->
+  <div class="content">
+    <ul>
+      <!-------Nav------->
+      <nav style="margin-top:10px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO0CpiE1kIKBve42VwCaIza2Ue6tGiJSsD6g&usqp=CAU"
+          style="float:left;width:85px; height:65px;" alt="logo Icon"></img>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="Contact.html">Contact us</a></li>
+      </nav>
+    </ul>
+
+    <!---Video from youtube--->
+
+
+    <iframe width="1325" height="260" src="https://www.youtube.com/embed/3lL3WXOJp1U" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+
+    <!---header--->
+
+    <header>
+
+      <h1><span class="Myname">Peter Kgobudi</span>
+        <!-----------Picture of Myself--------->
+        <img
+          src="https://scontent.fpry2-1.fna.fbcdn.net/v/t39.30808-6/270598570_1053580845216944_7666015683166639514_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFvjyikwwykffJaiKlPfb5W8oai8YFkhp7yhqLxgWSGnpvRaz1QjW028-CbtJ-BVNf_9lhoYOU-06a8dD1DBoUC&_nc_ohc=6Pwxd0G4xckAX_H-5Gl&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fpry2-1.fna&oh=00_AT-WT6ztH_ZyNp5WpP77SDXTBwMQ7h27AwGFY92EPnHGeA&oe=621EBE78"
+          style="float:right;width:270px;height:200px;">
+        </img>
+      </h1>
+
+    </header>
+    <!----------Paragraph--------->
+
+    <p>I am a goal driven computer science student who love's creation <br> and creating .I am motivated by change and I
+      believe creation & changing the<br> world is part of my purpose in Life because that is what i live for.<br>I am a
+      very investigative person also
+      artistic ,<br>adventures and highly! motivated by change.<br>My vision is to change and<br>
+      make the world a better place to live in espicially my country</p>
+
+    <div><button class="popup" onclick="myFunction()"
+        style="box-shadow: 2px 2px; font-size: 16px; padding: 15px 32px;background-color: #5fa778;">
+        Activate
+        <span class="popuptext" id="Popup">Peter Mode Activated!</span></button>
+    </div>
+
+    <script>
+      // When the user clicks on button, open the popup function
+      function myFunction() {
+        var popup = document.getElementById("Popup");
+        popup.classList.toggle("show");
+      }
+
+      var video = document.getElementById("myVideo");
+      var btn = document.getElementById("myBtn");
+
+    </script>
+
+
+</body>
+<!-----footer----->
+<footer>
+  <ul>
+    <p style="float:left;Color:white;">Contact:<a href="tel:+27820627110">0820627110</a>
+    </p>
+    <p style="float:right; Color:white;">Email:<a href="kgobudipeter@gmail.com">kgobudipeter@gmail.com</a>
+    </p>
+  </ul>
+  </div>
+</footer>
+
+
+</html>

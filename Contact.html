@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title style="font-size:larger">Contact Us</title>
+<link rel="icon" type="image/x-icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyYutgj0RUgS_gDF4WDZfCQ1MoC2CukbEE1Q&usqp=CAU">
+
+    <style>
+        body {
+            background-image: url("https://images.wallpapersden.com/image/download/binary-5k-colorful_bGVubW2UmZqaraWkpJRmaGtlrWxrbQ.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        p {
+            Color: white;
+        }
+        input{
+            padding: 10px;
+        }
+
+    </style>
+<!-----Body------>
+<body>
+    <header>
+        <h1 style="Color:white;text-align:center;">Contact Us</h1>
+</header>
+    <!-----Form----->
+    <form  action="https://formspree.io/f/mrgjqjqy"
+    method="POST">
+    
+        <p>Name: </p><input type="name" placeholder="Name" />
+   
+        <p>Surname: </p><input type="text" placeholder="Surname" />
+
+        <p>Province</p>
+        <input type="province" id="city" placeholder="Province">
+    
+        <p>City</p>
+        <input type="city" id="province" placeholder="City">
+    
+   
+        
+        <p>Email:</p>
+        <input type="email" id="email" name="Email" placeholder="Email" />
+  
+        <p>phone numbers</p>
+        <input type="tel" id="phone" name="phone" placeholder="phone number">
+
+        
+        <p>Message:</p>
+        <textarea style="padding: 25px;"></textarea>
+        <br><br>
+
+        <input style="background-color:#006a00;color:black;" type="submit" value="Submit">
+    </form>
+
+
+</html>
